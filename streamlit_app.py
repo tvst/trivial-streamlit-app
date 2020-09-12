@@ -11,4 +11,4 @@ v = st.slider("Choose a value", 0, 100)
 "You selected:", v
 
 # Also print to console.
-print("You selected:", v)
+print(f"You selected: {v}")
