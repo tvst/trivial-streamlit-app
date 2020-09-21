@@ -1,4 +1,5 @@
 import streamlit as st
+import sys
 
 """
 # Trivial Streamlit App
@@ -12,3 +13,4 @@ v = st.slider("Choose a value", 0, 100)
 
 # Also print to console.
 print(f"You selected: {v}")
+sys.stdout.flush()
